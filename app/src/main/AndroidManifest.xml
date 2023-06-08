@@ -12,6 +12,18 @@
         android:theme="@style/Theme.FaceU"
         tools:targetApi="31">
         <activity
+            android:name=".IngredientsAddMoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IngredientsActionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaceResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaceAnalyzeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
