@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/logo_FaceU" />
+        app:srcCompat="@drawable/logo_faceu" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             android:layout_width="322dp"
             android:layout_height="155dp"
             android:layout_marginVertical="8dp"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="17dp"
             app:cardElevation="4dp">
 
             <LinearLayout
@@ -94,8 +94,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="322dp"
             android:layout_height="155dp"
+            app:cardCornerRadius="17dp"
             android:layout_marginBottom="8dp"
-            app:cardCornerRadius="8dp"
             app:cardElevation="4dp">
 
             <LinearLayout

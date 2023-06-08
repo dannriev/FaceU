@@ -12,6 +12,24 @@
         android:theme="@style/Theme.FaceU"
         tools:targetApi="31">
         <activity
+            android:name=".IngredientsHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IngredientsCameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IngredientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaceCameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateMethodActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

@@ -11,7 +11,7 @@
         android:id="@+id/FaceuIV"
         android:layout_width="163dp"
         android:layout_height="90dp"
-        android:src="@drawable/logo_FaceU"
+        android:src="@drawable/logo_faceu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
@@ -24,13 +24,13 @@
         android:layout_width="213dp"
         android:layout_height="37dp"
         android:layout_marginTop="97dp"
+        app:cardCornerRadius="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FaceuIV"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.0"/>
 
     <EditText
         android:id="@+id/etPassword"
