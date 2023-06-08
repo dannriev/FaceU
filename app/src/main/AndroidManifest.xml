@@ -12,6 +12,12 @@
         android:theme="@style/Theme.FaceU"
         tools:targetApi="31">
         <activity
+            android:name=".IngredientsResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaceHistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".IngredientsHistoryActivity"
             android:exported="false" />
         <activity
