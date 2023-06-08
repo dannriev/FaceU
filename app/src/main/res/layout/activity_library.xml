@@ -63,7 +63,7 @@
                 android:layout_height="35dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="25dp"
-                android:src="@drawable/ic_face" />
+                android:src="@drawable/ic_face_white" />
 
         </androidx.cardview.widget.CardView>
 
