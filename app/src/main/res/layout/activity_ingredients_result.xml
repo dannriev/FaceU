@@ -18,18 +18,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/backToHome"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="276dp"
         android:src="@drawable/ic_home"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toEndOf="@+id/backToIngredientsMore"
         app:layout_constraintTop_toTopOf="@+id/toolbar2"
         app:layout_constraintVertical_bias="0.533" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/backToIngredientsMore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="344dp"
@@ -43,20 +43,20 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Analyze Preview"
+        android:text="@string/analyze_preview"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/pasti"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintEnd_toStartOf="@+id/backToHome"
+        app:layout_constraintStart_toEndOf="@+id/backToIngredientsMore"
         app:layout_constraintTop_toTopOf="@+id/toolbar2" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="315dp"
         android:layout_height="209dp"
-        android:text="TextView"
+        android:text="@string/textview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Product Info"
+        android:text="@string/product_info"
         android:textStyle="bold"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +81,7 @@
         android:id="@+id/textView12"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
-        android:text="TextView makan adalah keyika kamu merasa akan bisa melakukan"
+        android:text="@string/textview_makan_adalah_keyika_kamu_merasa_akan_bisa_melakukan"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView10"

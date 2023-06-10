@@ -83,7 +83,7 @@
                     android:id="@+id/tv_scan_ingredients"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Scan ingredients" />
+                    android:text="@string/scan_ingredients" />
 
             </LinearLayout>
 
@@ -117,7 +117,7 @@
                     android:id="@+id/tv_scan_face"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Scan your face" />
+                    android:text="@string/scan_your_face" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

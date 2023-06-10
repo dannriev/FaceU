@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <ImageButton
+            android:id="@+id/btnCamera"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
@@ -28,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Analysis Preview"
+            android:text="@string/analysis_preview"
             android:textSize="24sp"
             android:textColor="#F2B2F0"
             android:textStyle="bold"
@@ -37,10 +38,11 @@
             android:textAlignment="center"/>
 
         <ImageView
+            android:id="@+id/ivHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:src="@drawable/ic_home"/>
+            android:src="@drawable/ic_home_bck"/>
 
     </LinearLayout>
 
@@ -58,7 +60,7 @@
         android:id="@+id/tv_face_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Face info"
+        android:text="@string/face_info"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/iv_result"

@@ -13,14 +13,17 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
-            android:text="Keep your face in the camera"
+            android:text="@string/keep_your_face_in_the_camera"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textStyle="bold" />
@@ -45,7 +48,7 @@
                 app:srcCompat="@drawable/ic_foto" />
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/ivClickCamera"
                 android:layout_width="68dp"
                 android:layout_height="68dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +60,7 @@
                 app:srcCompat="@drawable/ic_circle" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/ivSwitch"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="95dp"
@@ -85,7 +88,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/backToMethod"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar3"

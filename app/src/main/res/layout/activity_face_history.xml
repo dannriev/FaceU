@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="16dp"
-        android:text=" Halo, "
+        android:text="@string/halo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -34,7 +34,7 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="name"
+        android:text="@string/name"
         app:layout_constraintStart_toEndOf="@+id/tv_greetings"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -50,6 +50,7 @@
             android:layout_height="wrap_content">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFaceHistory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:listitem="@layout/item_face_history" />
@@ -60,17 +61,17 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/main_fab_create"
+        android:id="@+id/btnAddFace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:contentDescription="pluss"
+        android:contentDescription="@string/pluss"
         android:src="@drawable/ic_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/ic_backToLibrary"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"

@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
+            android:id="@+id/btnCamera"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="8dp"
@@ -41,9 +42,10 @@
         tools:src="@tools:sample/avatars"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStartAnalyze"
         android:layout_width="207dp"
         android:layout_height="49dp"
-        android:text="Start analyze"
+        android:text="@string/start_analyze"
         android:textColor="@color/white"
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_corner_button"

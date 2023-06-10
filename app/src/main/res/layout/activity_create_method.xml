@@ -51,7 +51,7 @@
                     android:id="@+id/tv_open_camera"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Open the Camera"
+                    android:text="@string/open_the_camera"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="4dp"/>
 
@@ -77,7 +77,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="50dp"
-                        android:text="Camera"
+                        android:text="@string/camera"
                         android:textColor="@color/white"/>
 
                 </androidx.cardview.widget.CardView>
@@ -85,7 +85,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Choose a photo"
+                    android:text="@string/choose_a_photo_bck"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp"/>
 
@@ -111,7 +111,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="50dp"
-                        android:text="photos"
+                        android:text="@string/photos_bck"
                         android:textColor="@color/white"
                         android:layout_marginBottom="10dp"/>
 
@@ -140,7 +140,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/backToHome"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
@@ -151,17 +151,4 @@
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/ic_arrow_circle_left_white" />
 
-
-    <!--    <ImageView-->
-<!--        android:id="@+id/imageView13"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:layout_gravity="start"-->
-<!--        android:layout_marginTop="4dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:src="@drawable/ic_arrow_back"-->
-<!--        app:layout_constraintEnd_toEndOf="@+id/toolbar"-->
-<!--        app:layout_constraintHorizontal_bias="0.044"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,7 +45,7 @@
             android:id="@+id/tv_open_face"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="History face"
+            android:text="@string/history_face"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="4dp"/>
 
@@ -71,7 +71,7 @@
             android:id="@+id/tv_open_ingredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="History ingredients"
+            android:text="@string/history_ingredients"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="4dp"/>
 
