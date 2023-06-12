@@ -1,0 +1,5 @@
+fastapi
+pytesseract
+tesseract
+tesseract-ocr
+opencv-python
