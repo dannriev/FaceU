@@ -8,7 +8,7 @@ ________________________________________________________________________________
 
 ## Team : Bangkit Capstone Team C23-PS429
 
-| name                        | Bangkit ID   | Learning Path      | Contacts                    | Status |
+| Name                        | Bangkit ID   | Learning Path      | Contacts                    | Status |
 | --------------------------- | ------------ | ------------------ | --------------------------- | ------ |
 | Mursyidhan Ariefbillah A.M. | A240DSX1237  | Mobile Development | A240DSX1237@bangkit.academy | Active |
 | Lalu Rudi Setiawan          | A240DSX1120  | Mobile Development | A240DSX1120@bangkit.academy | Active |
@@ -16,6 +16,15 @@ ________________________________________________________________________________
 | Kornelius Setiawan          | C361DSX0929  | Cloud Computing    | C361DSX0929@bangkit.academy | Active |
 | Muhamad Rozaki              | M240DSX0431  | Machine Learning   | M240DSX0431@bangkit.academy | Active |
 | Handini Jayantika           | M295DSY2596  | Machine Learning   | M295DSY2596@bangkit.academy | Active |
+
+## Mentor : Bangkit Capstone Team C23-PS429
+
+| Name              | Advisor ID | Mentoring done on |
+| ----------------- | ---------- | ----------------- | 
+| Riza Alaudin Syah | B23-A122   | June 7, 2023      | 
+| Fredyka Maulana   | B23-A179   | June 8, 2023      |
+
+
 
 _____________________________________________________________________________________________________________________________________________________________
 
