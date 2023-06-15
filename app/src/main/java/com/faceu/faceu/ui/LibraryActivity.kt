@@ -1,11 +1,9 @@
-package com.faceu.faceu
+package com.faceu.faceu.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.faceu.faceu.databinding.ActivityHomeBinding
 import com.faceu.faceu.databinding.ActivityLibraryBinding
-import com.faceu.faceu.databinding.ActivityLoginBinding
 
 class LibraryActivity : AppCompatActivity() {
 
@@ -16,12 +14,14 @@ class LibraryActivity : AppCompatActivity() {
         binding = ActivityLibraryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.ivFace.setOnClickListener {
-            startActivity(Intent(this, FaceHistoryActivity::class.java))
+        supportActionBar?.hide()
+
+        binding.backToHome.setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
         }
 
-        binding.ivIngredients.setOnClickListener {
-            startActivity(Intent(this, IngredientsHistoryActivity::class.java))
+        binding.ivFace.setOnClickListener {
+            startActivity(Intent(this, FaceHistoryActivity::class.java))
         }
     }
 }

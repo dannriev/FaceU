@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LibraryActivity">
+    tools:context=".ui.LibraryActivity">
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="109dp"
-        android:layout_height="53dp"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
         android:layout_marginBottom="44dp"
-        android:src="@drawable/logo_faceu"
+        android:src="@drawable/faceu_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/backToHome"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_back_white" />
+        app:srcCompat="@drawable/ic_arrow_circle_left" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,32 +64,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="25dp"
                 android:src="@drawable/ic_face_white" />
-
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/tv_open_ingredients"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/history_ingredients"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="4dp"/>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="152dp"
-            android:layout_height="96dp"
-            android:layout_marginVertical="8dp"
-            app:cardCornerRadius="17dp"
-            app:cardElevation="4dp"
-            app:cardBackgroundColor="@color/pasti">
-
-            <ImageView
-                android:id="@+id/iv_ingredients"
-                android:layout_width="40dp"
-                android:layout_height="35dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="25dp"
-                android:src="@drawable/ic_text" />
 
         </androidx.cardview.widget.CardView>
 

@@ -4,7 +4,7 @@
     <string name="camera">Camera</string>
     <string name="start_analyze">Start analyze</string>
     <string name="keep_your_face_in_the_camera">Keep your face in the camera</string>
-    <string name="halo">Halo </string>
+    <string name="halo">Halo,</string>
     <string name="name">name</string>
     <string name="pluss">pluss</string>
     <string name="analysis_preview">Analysis Preview</string>
@@ -22,7 +22,7 @@
     <string name="analyze_bck">Analyze</string>
     <string name="keep_your_face_in_the_camera_bck">Keep the ingredients in the camera</string>
     <string name="halo_bck">Halo,</string>
-    <string name="name_bck">name</string>
+    <string name="name_bck">name!</string>
     <string name="pluss_bck">pluss</string>
     <string name="analyze_preview">Analyze Preview</string>
     <string name="textview">TextView</string>
@@ -35,13 +35,34 @@
     <string name="textview_bck">TextView</string>
     <string name="textview_bckk">TextView</string>
     <string name="textview_bckkk">TextView</string>
-    <string name="button">Button</string>
-    <string name="textviewbckk">TextView</string>
+    <string name="button">Register</string>
+    <string name="textviewbckk">Already have an account?</string>
     <string name="ini_adalah_wajahku_belakangan_ini_tolong_semuanya_bantu_aku">Ini adalah wajahku belakangan ini tolong semuanya bantu aku...</string>
-    <string name="_08_06_2023">08-06-2023</string>
+    <string name="label">Label</string>
     <string name="ini_adalah_wajahku_belakangan_ini_tolong_semuanya_aku_mengalami_musibah_pad_akuli">ini adalah wajahku belakangan ini tolong semuanya.... aku mengalami musibah pad akuli</string>
     <string name="_08_06_2023_nck">08-06-2023</string>
     <string name="choose_a_photo_bck">Choose a photo</string>
     <string name="photos_bck">photos</string>
     <string name="face_info">Face info</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="gallery">GALLERY</string>
+    <string name="submit">SUBMIT</string>
+    <string name="preview_picture">Preview Picture\n</string>
+
+
+    <string name="default_result">"We can't identify your face problem"</string>
+
+    <string name="acne">"Acne is a common skin condition that happens when hair follicles under the skin become clogged. Sebum(oil) that helps keep skin from drying out and dead skin cells plug the pores, which leads to outbreaks of lesions, commonly called pimples or zits. Most often, the outbreaks occur on the face but can also appear on the back, chest, and shoulders."</string>
+
+    <string name="dark_spot">"Dark spots are the result of the overproduction or collection of melanin, a skin pigment that makes skin darker. Dark spots are generally harmless. Even when the spots aren't dangerous, if they bother you, they can often be lightened or removed. Dark spots commonly occur as people age. They are often the result of past sun exposure. But they can also be due to some skin conditions, medications, and certain medical conditions."</string>
+
+    <string name="normal">"Congratulations, you have healthy skin!!!"</string>
+    <string name="redness">"Red facial skin always indicates increased circulation in the skin's blood vessels, especially in the fine capillary network. It may also indicate inflammation in the facial skin.
+1. If the red flushed skin is simply due to increased circulation in the blood vessels (i.e. blushing) you know it will pass.
+2. If inflammation is involved then the solution is more complex.
+"</string>
+
+    <string name="wrinkle">"Wrinkles, a natural part of aging, are most prominent on sun-exposed skin, such as the face, neck, hands and forearms. Although genetics mainly determine skin structure and texture, sun exposure is a major cause of wrinkles, especially for people with light skin. Pollutants and smoking also contribute to wrinkling."</string>
 </resources>

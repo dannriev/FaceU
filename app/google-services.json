@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941684841590",
+    "project_id": "faceu-b4146",
+    "storage_bucket": "faceu-b4146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941684841590:android:c69aec92bb6c8e9e341357",
+        "android_client_info": {
+          "package_name": "com.faceu.faceu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941684841590-9hgl7437rq069mr4vsk6mcr0jkivavgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faceu.faceu",
+            "certificate_hash": "a2cf80c7da3048e45b04ff701565ef59ba4b897d"
+          }
+        },
+        {
+          "client_id": "941684841590-ldt8ciovumfif1jumkbcegrqkthvepne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCehynP6g6dc-Pk09XoaHktS7ZzfVqUNiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941684841590-ldt8ciovumfif1jumkbcegrqkthvepne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.faceu.faceu
+package com.faceu.faceu.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,11 +15,13 @@ class CreateMethodActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.backToHome.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         }
 
         binding.ivCamera.setOnClickListener {
             startActivity(Intent(this, FaceCameraActivity::class.java))
         }
+
+        supportActionBar?.hide()
     }
 }

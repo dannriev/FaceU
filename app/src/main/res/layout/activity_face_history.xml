@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FaceHistoryActivity">
+    tools:context=".ui.FaceHistoryActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -26,15 +26,19 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="16dp"
         android:text="@string/halo"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
         android:id="@+id/tv_greetings_name"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/name"
+        android:layout_marginStart="5dp"
+        tools:text="@string/name"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/tv_greetings"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -44,19 +48,11 @@
         android:layout_marginTop="60dp"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-            android:id="@+id/main_swipe_refresh_layout"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFaceHistory"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvFaceHistory"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:listitem="@layout/item_face_history" />
-
-        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_face_history" />
 
     </LinearLayout>
 
@@ -78,6 +74,17 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="@+id/toolbar"
         app:srcCompat="@drawable/ic_arrow_circle_left_white" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
