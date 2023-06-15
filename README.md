@@ -16,3 +16,8 @@ ________________________________________________________________________________
 | Kornelius Setiawan          | C361DSX0929  | Cloud Computing    | C361DSX0929@bangkit.academy |
 | Muhamad Rozaki              | M240DSX0431  | Machine Learning   | M240DSX0431@bangkit.academy |
 | Handini Jayantika           | M295DSY2596  | Machine Learning   | M295DSY2596@bangkit.academy |
+
+_____________________________________________________________________________________________________________________________________________________________
+
+## Project Architecture
+
