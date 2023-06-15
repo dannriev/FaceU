@@ -21,3 +21,4 @@ ________________________________________________________________________________
 
 ## Project Architecture
 
+![alt text](https://github.com/dannriev/FaceU/blob/master/cloud%20architecture.png?raw=true)
