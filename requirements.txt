@@ -1,0 +1,11 @@
+fastapi
+pydantic
+uvicorn[standard]
+python-multipart
+numpy
+Pillow
+tensorflow
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+google-cloud-storage
