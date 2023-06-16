@@ -10,7 +10,7 @@ ________________________________________________________________________________
 
 | Name                        | Bangkit ID   | Learning Path      | Contacts                      | Status |
 | --------------------------- | ------------ | ------------------ | ----------------------------- | ------ |
-| Mursyidhan Ariefbillah A.M. | A240DSX1237  | Mobile Development | [![Mursyidhan Ariefbillah A.M.](https://github.com/dannriev/FaceU/blob/master/gmail%201.png)](mursyidhan7@gmail.com) [![Mursyidhan Ariefbillah A.M.](https://github.com/dannriev/FaceU/blob/master/linkedin%201.png)](https://www.linkedin.com/in/mursyidhan-ariefbillah-20626b245/)  | Active |
+| Mursyidhan Ariefbillah A.M. | A240DSX1237  | Mobile Development | (https://github.com/dannriev/FaceU/blob/master/gmail%201.png)](mursyidhan7@gmail.com) [![Mursyidhan Ariefbillah A.M.](https://github.com/dannriev/FaceU/blob/master/linkedin%201.png)](https://www.linkedin.com/in/mursyidhan-ariefbillah-20626b245/)  | Active |
 | Lalu Rudi Setiawan          | A240DSX1120  | Mobile Development | rudistiawannn@gmail.com       | Active |
 | Hervin Fakhrul Mahardika    | C301DSX3337  | Cloud Computing    | hervinfakhrulm@gmail.com      | Active |
 | Kornelius Setiawan          | C361DSX0929  | Cloud Computing    | korneliussetiawan13@gmail.com | Active |
