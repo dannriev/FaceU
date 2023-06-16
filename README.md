@@ -8,14 +8,14 @@ ________________________________________________________________________________
 
 ## Team : Bangkit Capstone Team "FaceU" C23-PS429
 
-| Name                        | Bangkit ID   | Learning Path      | Contacts                    | Status |
-| --------------------------- | ------------ | ------------------ | --------------------------- | ------ |
-| Mursyidhan Ariefbillah A.M. | A240DSX1237  | Mobile Development | A240DSX1237@bangkit.academy | Active |
-| Lalu Rudi Setiawan          | A240DSX1120  | Mobile Development | A240DSX1120@bangkit.academy | Active |
-| Hervin Fakhrul Mahardika    | C301DSX3337  | Cloud Computing    | C301DSX3337@bangkit.academy | Active |
-| Kornelius Setiawan          | C361DSX0929  | Cloud Computing    | C361DSX0929@bangkit.academy | Active |
-| Muhamad Rozaki              | M240DSX0431  | Machine Learning   | M240DSX0431@bangkit.academy | Active |
-| Handini Jayantika           | M295DSY2596  | Machine Learning   | M295DSY2596@bangkit.academy | Active |
+| Name                        | Bangkit ID   | Learning Path      | Contacts                      | Status |
+| --------------------------- | ------------ | ------------------ | ----------------------------- | ------ |
+| Mursyidhan Ariefbillah A.M. | A240DSX1237  | Mobile Development | mursyidhan7@gmail.com         | Active |
+| Lalu Rudi Setiawan          | A240DSX1120  | Mobile Development | rudistiawannn@gmail.com       | Active |
+| Hervin Fakhrul Mahardika    | C301DSX3337  | Cloud Computing    | hervinfakhrulm@gmail.com      | Active |
+| Kornelius Setiawan          | C361DSX0929  | Cloud Computing    | korneliussetiawan13@gmail.com | Active |
+| Muhamad Rozaki              | M240DSX0431  | Machine Learning   | M240DSX0431@bangkit.academy   | Active |
+| Handini Jayantika           | M295DSY2596  | Machine Learning   | handini.ka@gmail.com          | Active |
 
 ## Mentor : Bangkit Capstone Team "FaceU" C23-PS429
 
