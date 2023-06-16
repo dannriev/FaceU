@@ -6,7 +6,7 @@
 FaceU /’fé.seu/ is an android application integrated with machine learning where this application able to detect problems on facial skin, this application can detect acne, dark spots, wrinkles, and redness on the face, apart from the above problems will be considered as normal conditions.
 _____________________________________________________________________________________________________________________________________________________________
 
-## Team : Bangkit Capstone Team C23-PS429
+## Team : Bangkit Capstone Team "FaceU" C23-PS429
 
 | Name                        | Bangkit ID   | Learning Path      | Contacts                    | Status |
 | --------------------------- | ------------ | ------------------ | --------------------------- | ------ |
@@ -17,13 +17,18 @@ ________________________________________________________________________________
 | Muhamad Rozaki              | M240DSX0431  | Machine Learning   | M240DSX0431@bangkit.academy | Active |
 | Handini Jayantika           | M295DSY2596  | Machine Learning   | M295DSY2596@bangkit.academy | Active |
 
-## Mentor : Bangkit Capstone Team C23-PS429
+## Mentor : Bangkit Capstone Team "FaceU" C23-PS429
 
 | Name              | Advisor ID | Mentoring done on |
 | ----------------- | ---------- | ----------------- | 
 | Riza Alaudin Syah | B23-A122   | June 7, 2023      | 
 | Fredyka Maulana   | B23-A179   | June 8, 2023      |
-
-
-
 _____________________________________________________________________________________________________________________________________________________________
+
+## Learning Path Repository: Bangkit Capstone Team "FaceU" C23-PS429
+
+| Learning Path      | Repository Link                                    | 
+| -----------------  | -------------------------------------------------- |  
+| Mobile Development | https://github.com/rudistiawannn/FaceU-Android.git |  
+| Cloud Computing    |                                                    | 
+| Machine Learning   |                                                    | 
